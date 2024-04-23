@@ -1,1 +1,0 @@
-window.onload = window.alert("Disclaimer: This is a demo website, eveything you see here is for illustrative purpose only");
