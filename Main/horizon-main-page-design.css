@@ -1,0 +1,114 @@
+html, body {
+    height: 300px;
+    width: 700px;
+    font-family: 'Space Grotesk';
+    /*background-color: rgba(250, 250, 250, 0.61);*/
+    margin: 0;
+    padding: 0;
+}
+.page-top {
+    display: inline-block;
+}
+#title {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    font-weight: 1;
+    
+}
+#nav {
+    position: fixed;
+    top: 20px;
+    right: 0;
+    padding: 10px;
+  }
+  
+.banner {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    z-index: 101;
+    box-shadow: 2px 1px 15px rgb(184, 184, 184);
+}
+#home, #about, #contact, #gallery{
+    border-left: solid;
+    border-color: mediumorchid;
+    padding-left: 5px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+#home{
+    color: mediumvioletred;
+}
+#home:hover{
+    color: mediumvioletred;
+    border-color: #778899;
+}
+#about:hover{
+    color: mediumvioletred;
+    border-color: #778899;
+}
+#contact:hover{
+    color: mediumvioletred;
+    border-color: #778899;
+}
+#gallery:hover{
+    color: mediumvioletred;
+    border-color: #778899;
+}
+
+#welcome {
+    position: relative;
+    top: 110px;
+    left: 300px;
+    text-align: center;
+}
+#subtext {
+    position: relative;
+    top: 130px;
+    left: 300px;
+    text-align: center;
+}
+
+#building{
+    position: relative;
+    top: -80px;
+    left: 250px;
+    width: 420px;
+    height: 320px;
+}
+#txt{
+    position: relative;
+    left: 700px;
+    width: 350px;
+    top: 170px;
+    border-left: solid;
+    border-width: 3px;
+    padding-left: 5px;
+    border-color: mediumorchid;
+}
+#txt:hover{
+    border-color: #778899;
+}
+#learn{
+    position: relative;
+    left: 700px;
+    top: -120px;
+    text-decoration: none;
+    color: black;
+    border: solid;
+    border-radius: 50px;
+    padding: 5px;
+    cursor: pointer;
+}
+#learn:hover {
+    background-color: mediumorchid;
+    color: white;
+    border-color: #778899;
+}
+
